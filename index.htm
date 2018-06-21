@@ -18,12 +18,13 @@
       text-transform: uppercase;
     }
     .navbar-toggle {
-        position: relative;
+        position:absolute;
         float: right;
         padding: 0.5rem 0.5rem;
-        margin-top: 1rem;
-        margin-right: 0.75rem;
-        margin-bottom: 0.4rem;
+        top:0;
+        bottom: 0;
+        margin:auto;
+        right: 0.75rem;
         background-color: transparent;
         background-image: none;
         border: 1px solid transparent;
@@ -49,6 +50,8 @@
         }
         .right{
             width: 100%;
+            position: absolute;
+            top: 100%;
         }
         .uk-navbar-nav{
             width: 100%;
@@ -72,13 +75,39 @@
     .dn{
         display: none;
     }
+    .uk-sticky-placeholder .topBg{
+        background:#2196F3;
+        position: fixed;
+    }
+    .backTop{
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        font-size: 1rem;
+        display: none;
+        cursor: pointer;
+        /*background: #f1efef;*/
+    }
+    .uk-navbar .uk-navbar-brand{
+        height: 70px;
+    }
+    .uk-block{
+        padding-top: 65px;
+    }
+    .uk-navbar-nav>li>a{
+        height: 70px;
+        line-height: 70px;
+    }
     </style>
     <style type="text/css"></style>
 </head>
 <body>
 <div class="uk-sticky-placeholder" style="margin: 0px;">
     <div class="uk-sticky-placeholder" style="margin: 0px;">
-        <div class="tm-navbar tm-navbar-overlay tm-navbar-transparent tm-navbar-contrast"
+        <div class="topBg tm-navbar tm-navbar-overlay tm-navbar-transparent tm-navbar-contrast"
              data-uk-sticky="{&quot;media&quot;:767,&quot;showup&quot;:true,&quot;animation&quot;:&quot;uk-animation-slide-top&quot;,&quot;top&quot;:&quot;.uk-sticky-placeholder + *&quot;,&quot;clsinactive&quot;:&quot;tm-navbar-transparent tm-navbar-contrast&quot;}"
              style="margin: 0px;">
             <div class="uk-container uk-container-center">
@@ -98,7 +127,7 @@
                                 <a href="#">主页</a>
                             </li>
                             <li class="">
-                                <a href="#product">下载纯记账</a>
+                                <a href="#tm-main">下载纯记账</a>
                             </li>
                             <li class="">
                                 <a href="#donate">捐赠</a>
@@ -194,17 +223,27 @@
             </main>
         </div>
     </div>
+    <p class="uk-text-center uk-text-muted uk-text-small">官网技术支持<br/>
+        <a class="uk-text-muted uk-text-small" href="#tm-main">@Github jweilan</a>
+        <a class="uk-text-muted uk-text-small" href="#">@青山小帅</a>
+    </p>
 </div>
-<div class="weixin dn">  
-</div>
+<img id="backTop" class='backTop' src="./index/go_top.png">
 </body>
 <script type="text/javascript">
+var flag=true;
 $(".navbar-toggle").on('click',function(){
     $(".right").slideToggle("fast");
+    
+    if(flag){
+         $(".uk-navbar-nav").on('click',function(){
+            $(".right").slideToggle("fast");
+         })
+         flag=false;
+    }
  });
-$(".uk-navbar-nav").on('click',function(){
-    $(".right").slideToggle("fast");
-})
+
+
 //下载赋值
     //检测是否为微信
     function is_weixn(){
@@ -237,6 +276,7 @@ $(".uk-navbar-nav").on('click',function(){
         }(),
         language: (navigator.browserLanguage || navigator.language).toLowerCase()
     }
+
     //苹果
     if (browser.versions.ios || browser.versions.iPhone || browser.versions.iPad) {
         $(".download_url").attr({"href":"#"});
@@ -252,7 +292,55 @@ $(".uk-navbar-nav").on('click',function(){
         }else{
             $(".download_url").attr({"href":"./index/chunjizhang.apk"});
         }
+
     }
     /*测试一下*/
+
+     //返回顶部事件
+(function(){
+    var flag=false;//是否显示
+    $(window).scroll(function(){
+        var top = $(this).scrollTop();
+        if(top>200&&!flag){
+            $("#backTop").fadeIn(200);
+            flag=true;
+        }
+        if(top<=200&&flag){
+            $("#backTop").fadeOut(200);
+            flag=false;
+        }
+    })
+    $('#backTop').on('click',function(){
+       var doc = document.body.scrollTop? document.body : document.documentElement;
+       easeout(doc.scrollTop,0,5,function(value){
+         doc.scrollTop=value;
+       })
+    })
+    // requestAnimationFrame的兼容处理
+    if (!window.requestAnimationFrame) {
+        requestAnimationFrame = function(fn) {
+            setTimeout(fn, 17);
+        };  
+    }
+    var easeout = function (A, B, rate, callback) {
+        if (A == B || typeof A != 'number') {
+            return;    
+        }
+        B = B || 0;
+        rate = rate || 2;
+        
+        var step = function () {
+            A = A + (B - A) / rate;
+            
+            if (A < 1) {
+                callback(B, true);
+                return;
+            }
+            callback(A, false);
+            requestAnimationFrame(step);    
+        };
+        step();
+    };
+})();
 </script>
 </html>
