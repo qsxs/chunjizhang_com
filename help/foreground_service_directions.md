@@ -10,7 +10,7 @@
 
 ### 我想保留后台服务，但不想看到这个
 >可以下拉状态栏，左划此通知，点击设置图标，然后把对应类别的通知关掉，这将会隐藏此通知，但不影响后台服务正常运行。不同设备可能操作有所区别   
->[可以点我去设置](chunjizhang://open?action=notification_settings)
+>[可以点我去设置](chunjizhang://open?action=foreground_service_notification_settings)
 
 ### 为什么有些APP没有这个也可以在后台运行
 >一般会有一下几个原因   
