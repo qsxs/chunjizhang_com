@@ -1,0 +1,23 @@
+{
+  "Official": {
+    "versionCode": 69,
+    "versionName": "V3.2.0",
+    "updateLog": "",
+    "apkUrl": "",
+    "force": false
+  },
+  "Google": {
+    "versionCode": 69,
+    "versionName": "V3.2.0_beta",
+    "updateLog": "",
+    "apkUrl": "",
+    "force": false
+  },
+  "beta": {
+    "versionCode": 69,
+    "versionName": "V3.2.0_beta",
+    "updateLog": "1. 导出统计功能重新开放\n2. 界面设置中可以打开显示金额千分符\n3.其他细节优化 ",
+    "apkUrl": "",
+    "force": false
+  }
+}
