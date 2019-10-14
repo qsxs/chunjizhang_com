@@ -2,7 +2,7 @@
   "Official": {
     "versionCode": 68,
     "versionName": "V3.1.1",
-    "updateLog": "",
+    "updateLog": "1. 导出统计功能回归\n2. 界面设置中可以设置金额使用千分符，如1,233.44\n3. 检查更新功能回归，更快获知更新\n4. 导出功能优化",
     "apkUrl": "https://www.chunjizhang.com/index/chunjizhang.apk",
     "force": false
   },
@@ -14,10 +14,10 @@
     "force": false
   },
   "beta": {
-    "versionCode": 69,
-    "versionName": "V3.2.0_beta1",
-    "updateLog": "1. 导出统计功能回归\n2. 界面设置中可以设置金额使用千分符，如1,233.44\n3. 检查更新功能回归，更快获知更新\n4. 导出功能优化",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta.apk",
+    "versionCode": 70,
+    "versionName": "V3.2.0_beta2",
+    "updateLog": "修复shortcut进入app时错误绕过解锁密码的问题",
+    "apkUrl": "https://www.chunjizhang.com/update/MyAccountBook_beta_release_V3.2.0_beta2_20191014_102005.apk",
     "force": false
   }
 }
