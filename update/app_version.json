@@ -8,14 +8,14 @@
   },
   "Google": {
     "versionCode": 71,
-    "versionName": "V3.2.1",
+    "versionName": "V3.2.0",
     "updateLog": "1. 导出统计功能回归\n2. 界面设置中可以设置金额使用千分符，如1,233.44\n3. 检查更新功能回归，更快获知更新\n4. 导出功能优化\n5.修复shortcut进入app时错误绕过解锁密码的问题",
     "apkUrl": "market://details?id=com.six.accountbook",
     "force": false
   },
   "beta": {
     "versionCode": 71,
-    "versionName": "V3.2.1",
+    "versionName": "V3.2.0",
     "updateLog": "1. 导出统计功能回归\n2. 界面设置中可以设置金额使用千分符，如1,233.44\n3. 检查更新功能回归，更快获知更新\n4. 导出功能优化\n5.修复shortcut进入app时错误绕过解锁密码的问题",
     "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_3.2.0.apk",
     "force": false
