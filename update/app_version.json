@@ -14,10 +14,10 @@
     "force": false
   },
   "beta": {
-    "versionCode": 73,
-    "versionName": "V3.3.0_beta2",
-    "updateLog": "1. Night Mode(暗色模式）优化\n2. 暂时撤销Android 10的适配",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.3.0_beta2_20191213_151231.apk",
+    "versionCode": 72,
+    "versionName": "V3.3.0_beta1",
+    "updateLog": "1. 适配Adroid Q\n2. 适配Night Mode(暗色模式）\n3. 增加今日分享\n4. 记账金额可以负数\n5. 新增转账时默认记住上次的账户\n6.长按首页添加按钮可以快速添加转账\n7.修复显示千分符导致导出表格异常的问题\n8.修复首页本月收支的金额没有正确统计当月未来的账目",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.3.0_beta1_20191209_151436.apk",
     "force": false
   }
 }
