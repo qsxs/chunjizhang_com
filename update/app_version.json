@@ -14,8 +14,8 @@
     "force": false
   },
   "beta": {
-    "versionCode": 72,
-    "versionName": "V3.3.0_beta1",
+    "versionCode": 74,
+    "versionName": "V3.3.0_beta3",
     "updateLog": "1.适配Night Mode(暗色模式）\n2. 暂时撤销对Android Q的适配\n3. 修复记账时选择账户可能显示异常的问题",
     "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.3.0_beta3_20191213_162440.apk",
     "force": false
