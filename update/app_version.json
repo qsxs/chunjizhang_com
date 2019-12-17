@@ -2,21 +2,21 @@
   "Official": {
     "versionCode": 75,
     "versionName": "V3.3.0",
-    "updateLog": "1. 适配Night Mode(暗色模式）\n2. 增加今日分享\n3. 记账金额可以负数\n4. 新增转账时默认记住上次的账户\n5.长按首页添加按钮可以快速添加转账\n6.修复显示千分符导致导出表格异常的问题\n7.修复首页本月收支的金额没有正确统计当月未来的账目\n8.其他一些优化",
+    "updateLog": "1.适配Night Mode(暗色模式）\n2.增加今日分享\n3.记账金额可以负数\n4.新增转账时默认记住上次的账户\n5.长按首页添加按钮可以快速添加转账\n6.修复显示千分符导致导出表格异常的问题\n7.修复首页本月收支的金额没有正确统计当月未来的账目\n8.其他一些优化",
     "apkUrl": "https://www.chunjizhang.com/index/chunjizhang.apk",
     "force": false
   },
   "Google": {
     "versionCode": 75,
     "versionName": "V3.3.0",
-    "updateLog": "1. 适配Night Mode(暗色模式）\n2. 增加今日分享\n3. 记账金额可以负数\n4. 新增转账时默认记住上次的账户\n5.长按首页添加按钮可以快速添加转账\n6.修复显示千分符导致导出表格异常的问题\n7.修复首页本月收支的金额没有正确统计当月未来的账目\n8.其他一些优化",
+    "updateLog": "1.适配Night Mode(暗色模式）\n2.增加今日分享\n3.记账金额可以负数\n4.新增转账时默认记住上次的账户\n5.长按首页添加按钮可以快速添加转账\n6.修复显示千分符导致导出表格异常的问题\n7.修复首页本月收支的金额没有正确统计当月未来的账目\n8.其他一些优化",
     "apkUrl": "market://details?id=com.six.accountbook",
     "force": false
   },
   "beta": {
     "versionCode": 75,
     "versionName": "V3.3.0",
-    "updateLog": "1. 适配Night Mode(暗色模式）\n2. 增加今日分享\n3. 记账金额可以负数\n4. 新增转账时默认记住上次的账户\n5.长按首页添加按钮可以快速添加转账\n6.修复显示千分符导致导出表格异常的问题\n7.修复首页本月收支的金额没有正确统计当月未来的账目\n8.其他一些优化",
+    "updateLog": "1.适配Night Mode(暗色模式）\n2.增加今日分享\n3.记账金额可以负数\n4.新增转账时默认记住上次的账户\n5.长按首页添加按钮可以快速添加转账\n6.修复显示千分符导致导出表格异常的问题\n7.修复首页本月收支的金额没有正确统计当月未来的账目\n8.其他一些优化",
     "apkUrl": "https://www.chunjizhang.com/index/chunjizhang.apk",
     "force": false
   }
