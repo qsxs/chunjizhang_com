@@ -17,7 +17,7 @@
     "versionCode": 77,
     "versionName": "V3.3.1",
     "updateLog": "1.Night Mode(暗色模式）优化\n2.修复分类详情可能不显示账单的问题\n3.修复Android4.4运行崩溃的问题\n4.修复小米系统暗色模式导致桌面图标变色的问题",
-    "apkUrl": "https://www.chunjizhang.com/index/chunjizhang_beta_release_V3.3.1_20191223_113819.apk",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.3.1_20191223_113819.apk",
     "force": false
   }
 }
