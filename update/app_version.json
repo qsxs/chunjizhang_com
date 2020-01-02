@@ -1,23 +1,23 @@
 {
   "Official": {
-    "versionCode": 77,
-    "versionName": "V3.3.1",
-    "updateLog": "1.Night Mode(暗色模式）优化\n2.修复分类详情可能不显示账单的问题\n3.修复Android4.4运行崩溃的问题\n4.修复小米系统暗色模式导致桌面图标变色的问题",
+    "versionCode": 78,
+    "versionName": "V3.4.0",
+    "updateLog": "大家新年好呀\n\n1.可以点击选择常用的备注\n2.可以设置是否显示不计入预算和冲账标识\n3.备份记录中只能操作和纯记账相关的文件\n4.修复一些bug\n5.修复4.4选择导出日期可能崩溃的问题\n即将开始适配android 10，这应该是最后一个支持android 4.4的版本",
     "apkUrl": "https://www.chunjizhang.com/index/chunjizhang.apk",
     "force": false
   },
   "Google": {
-    "versionCode": 77,
-    "versionName": "V3.3.1",
-    "updateLog": "1.Night Mode(暗色模式）优化\n2.修复分类详情可能不显示账单的问题\n3.修复Android4.4运行崩溃的问题\n4.修复小米系统暗色模式导致桌面图标变色的问题",
+    "versionCode": 78,
+    "versionName": "V3.4.0",
+    "updateLog": "大家新年好呀\n\n1.可以点击选择常用的备注\n2.可以设置是否显示不计入预算和冲账标识\n3.备份记录中只能操作和纯记账相关的文件\n4.修复一些bug\n5.修复4.4选择导出日期可能崩溃的问题\n即将开始适配android 10，这应该是最后一个支持android 4.4的版本",
     "apkUrl": "market://details?id=com.six.accountbook",
     "force": false
   },
   "beta": {
-    "versionCode": 77,
-    "versionName": "V3.3.1",
-    "updateLog": "1.Night Mode(暗色模式）优化\n2.修复分类详情可能不显示账单的问题\n3.修复Android4.4运行崩溃的问题\n4.修复小米系统暗色模式导致桌面图标变色的问题",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.3.1_20191223_113819.apk",
+    "versionCode": 78,
+    "versionName": "V3.4.0",
+    "updateLog": "大家新年好呀\n\n1.可以点击选择常用的备注\n2.可以设置是否显示不计入预算和冲账标识\n3.备份记录中只能操作和纯记账相关的文件\n4.修复一些bug\n5.修复4.4选择导出日期可能崩溃的问题\n即将开始适配android 10，这应该是最后一个支持android 4.4的版本",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.4.0_20200102_103506.apk",
     "force": false
   }
 }
