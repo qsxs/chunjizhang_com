@@ -14,10 +14,10 @@
     "force": false
   },
   "beta": {
-    "versionCode": 82,
-    "versionName": "V3.4.3",
-    "updateLog": "1.修复再记一笔时仍然记住上一笔的备注的问题\n2.其他一些小优化",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.4.3_20200114_112351.apk",
+    "versionCode": 84,
+    "versionName": "V3.5_beta1",
+    "updateLog": "1.适配 android 10,无需任何权限,符合安卓应用推荐规范，更隐私更安全更绿色\n2.其他一些小优化",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.5_beta1_20200324_090622.apk",
     "force": false
   }
 }
