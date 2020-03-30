@@ -1,23 +1,23 @@
 {
   "Official": {
-    "versionCode": 82,
-    "versionName": "V3.4.3",
-    "updateLog": "1.修复再记一笔时仍然记住上一笔的备注的问题\n2.其他一些小优化",
-    "apkUrl": "https://www.chunjizhang.com/index/chunjizhang.apk",
+    "versionCode": 86,
+    "versionName": "V3.5",
+    "updateLog": "1. 适配 android 10,无需任何权限,符合安卓应用推荐规范，更隐私更安全更绿色\n2. 其他一些小优化",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.5_20200330_113901.apk",
     "force": false
   },
   "Google": {
-    "versionCode": 82,
-    "versionName": "V3.4.3",
-    "updateLog": "1.修复再记一笔时仍然记住上一笔的备注的问题\n2.其他一些小优化",
+    "versionCode": 86,
+    "versionName": "V3.5",
+    "updateLog": "1. 适配 android 10,无需任何权限,符合安卓应用推荐规范，更隐私更安全更绿色\n2. 其他一些小优化",
     "apkUrl": "market://details?id=com.six.accountbook",
     "force": false
   },
   "beta": {
-    "versionCode": 85,
-    "versionName": "V3.5_beta2",
-    "updateLog": "1.修复3.5_beta1版本引导页重复显示的问题",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.5_beta2_20200328_114350.apk",
+    "versionCode": 86,
+    "versionName": "V3.5",
+    "updateLog": "1. 适配 android 10,无需任何权限,符合安卓应用推荐规范，更隐私更安全更绿色\n2. 其他一些小优化",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.5_20200330_113901.apk",
     "force": false
   }
 }
