@@ -14,10 +14,10 @@
     "force": false
   },
   "beta": {
-    "versionCode": 86,
-    "versionName": "V3.5",
-    "updateLog": "1. 适配 android 10,无需任何权限,符合安卓应用推荐规范，更隐私更安全更绿色\n2. 其他一些小优化",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.5_20200330_113901.apk",
+    "versionCode": 87,
+    "versionName": "V3.6_beta1",
+    "updateLog": "1. 解决双开应用无法导出的问题\n2. 暗色模式增加开关\n3. 账户页面可以点击添加记录长按添加转账\n4. 一些bug修复",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.6_beta1_20200525_105028.apk",
     "force": false
   }
 }
